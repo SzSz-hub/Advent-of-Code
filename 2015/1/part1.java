@@ -6,6 +6,6 @@ public class MyClass {
             floor += c == '(' ? 1 : -1;
         }
 
-        System.out.println(floor);
+        System.out.println("Final floor is " + floor + '.');
     }
 }
