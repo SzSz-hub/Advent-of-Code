@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
 public class MyClass {
-  public static void main(String args[]) {
+  public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
-      Long result = 0l;
+      long result = 0L;
       while(sc.hasNext()){
-        result += calcuateWrappingPaper(sc.nextLine());
+        result += calculateWrappingPaper(sc.nextLine());
       }
       sc.close();
       System.out.println("They should order a total of " + result + " feet ribbon.");
   }
   
-  public static int calcuateWrappingPaper(String input){
-    var nums = java.util.Arrays.stream(input.split("x")).mapToInt(Integer::parseInt).toArray();
-    int wrap =  2 * (nums[0] + nums[1] + nums[2] - Math.max(Math.max(nums[0], nums[1]), nums[2]));
-    int bowl = nums[0] * nums[1] * nums[2];
+  public static int calculateWrappingPaper(String input){
+    var numbers = java.util.Arrays.stream(input.split("x")).mapToInt(Integer::parseInt).toArray();
+    int wrap =  2 * (numbers[0] + numbers[1] + numbers[2] - Math.max(Math.max(numbers[0], numbers[1]), numbers[2]));
+    int bowl = numbers[0] * numbers[1] * numbers[2];
     return wrap + bowl;
   }
 }
