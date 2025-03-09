@@ -17,7 +17,6 @@ public class Main {
                 niceStrings++;
             }
         }
-
         System.out.println("Nice strings: " + niceStrings);
     }
 
