@@ -1,16 +1,18 @@
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.Scanner;
-import java.security.*;
 
-public class Main {
+public class Day4A {
     public static void main(String[] args) throws NoSuchAlgorithmException {
         Scanner sc = new Scanner(System.in);
         String message = sc.nextLine();
+        sc.close();
         int number = 0;
 
         while(true){
             String input = message + number;
             String hash = getMD5Hash(input);
-            if (hash.startsWith("000000")) {
+            if (hash.startsWith("00000")) {
                 System.out.println("The lowest number is: " + number);
                 System.out.println("MD5 hash: " + hash);
                 break;

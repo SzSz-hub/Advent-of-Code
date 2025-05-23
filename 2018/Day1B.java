@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class part2 {
-    private static HashSet<Integer> history = new HashSet<>();
+public class Day1B {
+    private static final HashSet<Integer> history = new HashSet<>();
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -15,6 +15,7 @@ public class part2 {
             String line = sc.nextLine();
             changes.add(line);
         }
+        sc.close();
 
         int counter = 0;
         while (true) {

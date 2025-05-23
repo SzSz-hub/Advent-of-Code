@@ -29,13 +29,13 @@
                           |   |                        
                _  _ __ ___|___|___ __ _  _              
 
-![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2015?type=dir&style=for-the-badge&label=2015&color=Green)\
-![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2016?type=dir&style=for-the-badge&label=2016&color=Green)\
-![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2017?type=dir&style=for-the-badge&label=2017&color=Green)\
-![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2018?type=dir&style=for-the-badge&label=2018&color=Green)\
-![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2019?type=dir&style=for-the-badge&label=2019&color=Green)\
-![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2020?type=dir&style=for-the-badge&label=2020&color=Green)\
-![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2021?type=dir&style=for-the-badge&label=2021&color=Green)\
-![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2022?type=dir&style=for-the-badge&label=2022&color=Green)\
-![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2023?type=dir&style=for-the-badge&label=2023&color=Green)\
-![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2024?type=dir&style=for-the-badge&label=2024&color=Green)
+![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2015?type=file&style=for-the-badge&label=2015&color=Green)\
+![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2016?type=file&style=for-the-badge&label=2016&color=Green)\
+![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2017?type=file&style=for-the-badge&label=2017&color=Green)\
+![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2018?type=file&style=for-the-badge&label=2018&color=Green)\
+![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2019?type=file&style=for-the-badge&label=2019&color=Green)\
+![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2020?type=file&style=for-the-badge&label=2020&color=Green)\
+![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2021?type=file&style=for-the-badge&label=2021&color=Green)\
+![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2022?type=file&style=for-the-badge&label=2022&color=Green)\
+![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2023?type=file&style=for-the-badge&label=2023&color=Green)\
+![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2024?type=file&style=for-the-badge&label=2024&color=Green)

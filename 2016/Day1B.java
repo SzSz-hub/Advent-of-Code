@@ -1,9 +1,8 @@
+import java.awt.*;
 import java.util.HashSet;
 import java.util.Scanner;
-import java.awt.Point;
 
-
-public class part2 {
+public class Day1B {
     public static void main(String[] args)  {
         String[] direction = {"N", "E", "S", "W"};
         Scanner sc = new Scanner(System.in);

@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
-public class Main {
+public class Day5B {
     public static void main(String[] args)  {
         Scanner sc = new Scanner(System.in);
         ArrayList<String> messages = new ArrayList<>();
