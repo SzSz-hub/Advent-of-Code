@@ -38,4 +38,5 @@
 ![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2021?type=file&style=for-the-badge&label=2021&color=Green)\
 ![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2022?type=file&style=for-the-badge&label=2022&color=Green)\
 ![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2023?type=file&style=for-the-badge&label=2023&color=Green)\
-![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2024?type=file&style=for-the-badge&label=2024&color=Green)
+![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2024?type=file&style=for-the-badge&label=2024&color=Green)\
+![](https://img.shields.io/github/directory-file-count/SzSz-hub/Advent-of-Code/2025?type=file&style=for-the-badge&label=2025&color=Green)
