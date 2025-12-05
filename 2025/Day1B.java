@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Day1A {
+public class Day1B {
     public static void main(String[] args) {
         final int TOTAL = 100;
         int position = 50;
