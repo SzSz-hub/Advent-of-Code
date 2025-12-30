@@ -1,0 +1,82 @@
+package year2015;
+
+import java.util.Scanner;
+
+public class Day11B {
+    public static void main(String[] args){
+        try(Scanner scanner = new Scanner(System.in)){
+            String password = scanner.nextLine().trim();
+
+            for (int i = 0; i < 2; i++) {
+                do {
+                    password = getNextPassword(password);
+                } while (!isValidPassword(password));
+            }
+            System.out.println(password);
+        }
+    }
+
+    private static boolean isValidPassword(String password) {
+        return hasIncreasingStraight(password) && hasNoForbiddenLetters(password) && hasTwoDifferentPairs(password);
+    }
+
+    private static boolean hasIncreasingStraight(String password) {
+        for (int i = 0; i < password.length() - 2; i++) {
+            char first = password.charAt(i);
+            char second = password.charAt(i + 1);
+            char third = password.charAt(i + 2);
+            char expectedSecond = nextChar(first);
+            char expectedThird = nextChar(expectedSecond);
+            if (second == expectedSecond && expectedSecond != 'a' && third == expectedThird && expectedThird != 'a')
+                return true;
+        }
+        return false;
+    }
+
+    private static char nextChar(char c) {
+        return (char) ( c == 'z' ? 'a' : c + 1 );
+    }
+
+    private static boolean hasNoForbiddenLetters(String password) {
+        return !password.contains("i") && !password.contains("o") && !password.contains("l");
+    }
+
+    private static boolean hasTwoDifferentPairs(String password) {
+        int pairCount = 0;
+        char lastPairChar = '\0';
+
+        for (int i = 0; i < password.length() - 1; i++) {
+            char currentChar = password.charAt(i);
+            char nextChar = password.charAt(i + 1);
+
+            if (currentChar == nextChar && currentChar != lastPairChar) {
+                pairCount++;
+                lastPairChar = currentChar;
+                i++; // Skip the next character to avoid overlapping pairs
+            }
+
+            if (pairCount >= 2) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private static String getNextPassword(String password) {
+        char[] chars = password.toCharArray();
+        int index = chars.length - 1;
+
+        while (index >= 0) {
+            if (chars[index] == 'z') {
+                chars[index] = 'a';
+                index--;
+            } else {
+                chars[index]++;
+                break;
+            }
+        }
+
+        return new String(chars);
+    }
+}
