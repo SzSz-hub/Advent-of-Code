@@ -7,7 +7,6 @@ public class Day11A {
         try(Scanner scanner = new Scanner(System.in)){
             String password = scanner.nextLine().trim();
 
-            // Part 1
             do {
                 password = getNextPassword(password);
             } while (!isValidPassword(password));
@@ -24,7 +23,9 @@ public class Day11A {
             char first = password.charAt(i);
             char second = password.charAt(i + 1);
             char third = password.charAt(i + 2);
-            if (second == nextChar(first) && third == nextChar(second))
+            char expectedSecond = nextChar(first);
+            char expectedThird = nextChar(expectedSecond);
+            if (second == expectedSecond && expectedSecond != 'a' && third == expectedThird && expectedThird != 'a')
                 return true;
         }
         return false;
