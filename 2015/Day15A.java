@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Day15 {
+public class Day15A {
     public static void main(String[] args) {
         final int TOTAL = 100;
         List<Ingredient> ingredients = new ArrayList<>();
